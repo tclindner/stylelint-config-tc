@@ -1,0 +1,55 @@
+{
+  "name": "stylelint-config-tc",
+  "version": "1.0.0",
+  "description": "Stylelint shareable config",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "code style"
+  ],
+  "homepage": "https://github.com/tclindner/stylelint-config-tc",
+  "bugs": {
+    "url": "https://github.com/tclindner/stylelint-config-tc/issues"
+  },
+  "author": "Thomas Lindner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tclindner/stylelint-config-tc.git"
+  },
+  "files": [
+    "index.js",
+    "CONTRIBUTING.md"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint . --format=node_modules/eslint-formatter-pretty",
+    "lint": "npm run npmpackagejsonlint && npm run eslint",
+    "npmpackagejsonlint": "npmPkgJsonLint .",
+    "test": "mocha tests"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-tc": "^3.0.0",
+    "eslint-formatter-pretty": "^1.3.0",
+    "is-plain-obj": "^1.1.0",
+    "mocha": "^5.2.0",
+    "npm-package-json-lint": "^3.0.1",
+    "npm-package-json-lint-config-tc": "^2.0.0",
+    "stylelint": "^7.10.1",
+    "temp-write": "^3.4.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.10.1"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "license": "MIT"
+}
