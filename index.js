@@ -32,6 +32,7 @@ module.exports = {
     }],
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-newline-after': 'always',
+    'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always',
