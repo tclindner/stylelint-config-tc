@@ -4,6 +4,9 @@ const chai = require('chai');
 const isPlainObj = require('is-plain-obj');
 const stylelintConfig = require('../index.js');
 const stylelint = require('stylelint');
+
+const should = chai.should();
+
 const code = `a {
   top: .5px;
 }
