@@ -1,7 +1,7 @@
 const chai = require('chai');
 const isPlainObj = require('is-plain-obj');
-const stylelintConfig = require('../index.js');
 const stylelint = require('stylelint');
+const stylelintConfig = require('../index.js');
 
 const should = chai.should();
 
@@ -29,9 +29,8 @@ describe('stylelint config tests', () => {
       stylelint.lint({
         code,
         config: stylelintConfig
-      }).then((data) => {
-        const errored = data.errored;
-        const results = data.results[0];
+      }).then(({errored, results}) => {
+        const results = results[0];
         const warning = results.warnings[0];
         const expectedErrorLineNum = 2;
         const expectedErrorColumnNum = 8;
