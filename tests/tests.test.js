@@ -30,8 +30,8 @@ describe('stylelint config tests', () => {
         code,
         config: stylelintConfig
       }).then(({errored, results}) => {
-        const results = results[0];
-        const warning = results.warnings[0];
+        const result = results[0];
+        const warning = result.warnings[0];
         const expectedErrorLineNum = 2;
         const expectedErrorColumnNum = 8;
 
