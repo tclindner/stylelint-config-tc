@@ -1,5 +1,3 @@
-'use strict';
-
 /* eslint object-curly-newline: 'off', no-magic-numbers: 'off', array-bracket-newline: 'off' */
 
 module.exports = {
