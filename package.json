@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-tc",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Stylelint shareable config",
   "keywords": [
     "stylelint",
@@ -23,6 +23,7 @@
   },
   "files": [
     "index.js",
+    "rules",
     "CONTRIBUTING.md"
   ],
   "main": "index.js",
@@ -30,23 +31,29 @@
     "eslint": "eslint . --format=node_modules/eslint-formatter-pretty",
     "lint": "npm run npmpackagejsonlint && npm run eslint",
     "npmpackagejsonlint": "npmPkgJsonLint .",
-    "test": "mocha tests"
+    "test": "jest"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^5.12.1",
-    "eslint-config-tc": "^5.1.0",
+    "eslint": "^5.14.0",
+    "eslint-config-tc": "^6.0.0",
     "eslint-formatter-pretty": "^2.1.1",
-    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "is-plain-obj": "^1.1.0",
-    "mocha": "^5.2.0",
-    "npm-package-json-lint": "^3.4.1",
+    "jest": "^24.1.0",
+    "npm-package-json-lint": "^3.5.0",
     "npm-package-json-lint-config-tc": "^2.1.0",
+    "prettier": "^1.16.4",
     "stylelint": "^9.10.1",
-    "temp-write": "^3.4.0"
+    "stylelint-prettier": "^1.0.6"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^4.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^9.10.1"
+    "prettier": "^1.16.4",
+    "stylelint": "^9.10.1",
+    "stylelint-prettier": "^1.0.6"
   },
   "engines": {
     "node": ">=6.0.0",
