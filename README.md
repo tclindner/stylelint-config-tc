@@ -26,8 +26,10 @@ First thing first, let's make sure you have the necessary pre-requisites.
 ### Command
 
 ```bash
-npm install stylelint-config-tc --save-dev
+npm install stylelint-config-tc stylelint stylelint-prettier prettier --save-dev
 ```
+
+> stylelint, stylelint-prettier, and prettier are peer dependencies and must be installed.
 
 ## Usage
 
