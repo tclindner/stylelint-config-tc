@@ -11,6 +11,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
+## [3.0.0] - 2019-04-28
+### Changed
+* Upgraded to Stylelint 10.x.x.
+
+### Removed
+* Dropped support for Node 6 and 7.
+
 ## [2.0.0] - 2019-02-16
 ### Added
 * Prettier support via `stylelint-prettier`. Three options have been configured. `endOfLine` is set to `lf`. `printWidth` is set to `124`. `singleQuote` is set to `true`.
