@@ -21,12 +21,12 @@ First thing first, let's make sure you have the necessary pre-requisites.
 #### Node
 
 * [Node.js](https://nodejs.org/) - v8.0.0+
-* [npm](http://npmjs.com) - v5.0.0+
+* [npm](http://npmjs.com) - v6.0.0+
 
 ### Command
 
 ```bash
-npm install stylelint-config-tc stylelint stylelint-prettier prettier --save-dev
+npx install-peerdeps --dev stylelint-config-tc
 ```
 
 > stylelint, stylelint-prettier, and prettier are peer dependencies and must be installed.
