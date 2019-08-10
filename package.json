@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-tc",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Stylelint shareable config",
   "keywords": [
     "stylelint",
@@ -34,30 +34,31 @@
     "test": "jest"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-tc": "^6.4.0",
+    "eslint": "^6.1.0",
+    "eslint-config-tc": "^8.0.0",
     "eslint-formatter-pretty": "^2.1.1",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-jest": "^22.15.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
     "is-plain-obj": "^2.0.0",
-    "jest": "^24.7.1",
-    "npm-package-json-lint": "^3.6.0",
-    "npm-package-json-lint-config-tc": "^2.1.0",
-    "prettier": "^1.17.0",
-    "stylelint": "^10.0.1",
-    "stylelint-prettier": "^1.0.6"
+    "jest": "^24.8.0",
+    "npm-package-json-lint": "^3.7.0",
+    "npm-package-json-lint-config-tc": "^2.2.0",
+    "prettier": "^1.18.2",
+    "stylelint": "^10.1.0",
+    "stylelint-prettier": "^1.1.1"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^5.1.0"
+    "stylelint-config-prettier": "^5.2.0"
   },
   "peerDependencies": {
-    "prettier": "^1.17.0",
-    "stylelint": "^10.0.1",
-    "stylelint-prettier": "^1.0.6"
+    "prettier": "^1.18.2",
+    "stylelint": "^10.1.0",
+    "stylelint-prettier": "^1.1.1"
   },
   "engines": {
     "node": ">=8.0.0",
-    "npm": ">=5.0.0"
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }

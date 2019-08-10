@@ -10,37 +10,33 @@ const code = `a {
 describe('stylelint config tests', () => {
   describe('stylelint object', () => {
     test('should be an object', () => {
-      expect(isPlainObj(stylelintConfig)).toBeTruthy();
+      expect(isPlainObj(stylelintConfig)).toBe(true);
     });
   });
 
   describe('extends', () => {
     test('should be an object', () => {
-      expect(Array.isArray(stylelintConfig.extends)).toBeTruthy();
+      expect(Array.isArray(stylelintConfig.extends)).toBe(true);
     });
   });
 
   describe('run stylelint and make sure it runs', () => {
-    test('stylelint should run without failing', done => {
-      stylelint
-        .lint({
-          code,
-          configFile: '.stylelintrc.json'
-        })
-        .then(({errored, results}) => {
-          const result = results[0];
-          const warning = result.warnings[0];
-          const expectedErrorLineNum = 2;
-          const expectedErrorColumnNum = 8;
+    test('stylelint should run without failing', async () => {
+      const {errored, results} = await stylelint.lint({
+        code,
+        configFile: '.stylelintrc.json'
+      });
 
-          expect(errored).toBeTruthy();
-          expect(warning.line).toStrictEqual(expectedErrorLineNum);
-          expect(warning.column).toStrictEqual(expectedErrorColumnNum);
-          expect(warning.rule).toStrictEqual('prettier/prettier');
-          expect(warning.severity).toStrictEqual('error');
+      const result = results[0];
+      const warning = result.warnings[0];
+      const expectedErrorLineNum = 2;
+      const expectedErrorColumnNum = 8;
 
-          done();
-        });
+      expect(errored).toBe(true);
+      expect(warning.line).toStrictEqual(expectedErrorLineNum);
+      expect(warning.column).toStrictEqual(expectedErrorColumnNum);
+      expect(warning.rule).toStrictEqual('prettier/prettier');
+      expect(warning.severity).toStrictEqual('error');
     });
   });
 });
