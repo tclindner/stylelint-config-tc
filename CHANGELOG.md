@@ -11,6 +11,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
+## [4.0.0] - 2019-10-06
+### Changed
+* Upgraded to `stylelint-config-prettier` v6.0.0.
+
 ## [3.0.1] - 2019-08-10
 ### Changed
 * Resolved a compatibility issue with prettier 1.18.x
