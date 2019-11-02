@@ -11,6 +11,15 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
+## [5.0.0] - 2019-11-02
+### Added
+- Added [`font-family-no-missing-generic-family-keyword`](https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword)
+- Added [`declaration-block-no-shorthand-property-overrides`](https://stylelint.io/user-guide/rules/declaration-block-no-shorthand-property-overrides)
+- Added [`no-descending-specificity`](https://stylelint.io/user-guide/rules/no-descending-specificity)
+- Added [`no-duplicate-at-import-rules`](https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules)
+- Added [`no-duplicate-selectors`](https://stylelint.io/user-guide/rules/no-duplicate-selectors)
+- Added [`no-extra-semicolons`](https://stylelint.io/user-guide/rules/no-extra-semicolons)
+
 ## [4.0.0] - 2019-10-06
 ### Changed
 * Upgraded to `stylelint-config-prettier` v6.0.0.
