@@ -50,7 +50,7 @@
     "stylelint-prettier": "^1.1.1"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.0"
+    "stylelint-config-prettier": "^8.0.1"
   },
   "peerDependencies": {
     "prettier": "^1.0.0",
