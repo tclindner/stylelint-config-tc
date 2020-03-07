@@ -1,6 +1,6 @@
 {
   "extends": "npm-package-json-lint-config-tc",
   "rules": {
-    "valid-values-engines": "warning"
+    "valid-values-engines": "off"
   }
 }
