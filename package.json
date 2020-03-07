@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-tc",
-  "version": "5.1.0",
+  "version": "6.0.0",
   "description": "Stylelint shareable config",
   "keywords": [
     "stylelint",
@@ -54,11 +54,11 @@
   },
   "peerDependencies": {
     "prettier": "^1.0.0",
-    "stylelint": "^11.0.0 || ^12.0.0",
+    "stylelint": "^13.0.0",
     "stylelint-prettier": "^1.0.0"
   },
   "engines": {
-    "node": ">=8.0.0",
+    "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
