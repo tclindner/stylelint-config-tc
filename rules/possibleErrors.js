@@ -20,8 +20,8 @@ module.exports = {
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['each', 'else', 'extend', 'for', 'if', 'include', 'mixin']
-      }
+        ignoreAtRules: ['each', 'else', 'extend', 'for', 'if', 'include', 'mixin'],
+      },
     ],
     'comment-no-empty': true,
     'no-descending-specificity': true,
@@ -29,6 +29,6 @@ module.exports = {
     'no-duplicate-selectors': true,
     'no-empty-source': true,
     'no-extra-semicolons': true,
-    'no-invalid-double-slash-comments': true
-  }
+    'no-invalid-double-slash-comments': true,
+  },
 };

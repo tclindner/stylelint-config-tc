@@ -16,11 +16,11 @@ module.exports = {
       'always',
       {
         except: ['first-nested'],
-        ignore: ['stylelint-commands']
-      }
+        ignore: ['stylelint-commands'],
+      },
     ],
     'comment-whitespace-inside': 'always',
     'no-missing-end-of-source-newline': true,
-    'no-empty-first-line': true
-  }
+    'no-empty-first-line': true,
+  },
 };

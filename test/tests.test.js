@@ -24,7 +24,7 @@ describe('stylelint config tests', () => {
     test('stylelint should run without failing', async () => {
       const {errored, results} = await stylelint.lint({
         code,
-        configFile: '.stylelintrc.json'
+        configFile: '.stylelintrc.json',
       });
 
       const result = results[0];

@@ -11,6 +11,6 @@ module.exports = {
     'selector-max-universal': 0,
     'selector-no-vendor-prefix': true,
     'media-feature-name-no-vendor-prefix': true,
-    'at-rule-no-vendor-prefix': true
-  }
+    'at-rule-no-vendor-prefix': true,
+  },
 };
