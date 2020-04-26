@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-tc",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "Stylelint shareable config",
   "keywords": [
     "stylelint",

@@ -14,7 +14,7 @@ module.exports = {
     'declaration-block-no-shorthand-property-overrides': true,
     'block-no-empty': true,
     'selector-pseudo-class-no-unknown': true,
-    'selector-pseudo-element-no-unknown': true,
+    'selector-pseudo-element-no-unknown': [true, {ignorePseudoElements: 'v-deep'}],
     'selector-type-no-unknown': true,
     'media-feature-name-no-unknown': true,
     'at-rule-no-unknown': [
