@@ -47,7 +47,7 @@
     "npm-package-json-lint-config-tc": "^4.0.0",
     "prettier": "^2.2.1",
     "stylelint": "^13.11.0",
-    "stylelint-prettier": "^1.1.2"
+    "stylelint-prettier": "^1.2.0"
   },
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2"
