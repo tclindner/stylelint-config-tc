@@ -1,6 +1,6 @@
 const isPlainObj = require('is-plain-obj');
 const stylelint = require('stylelint');
-const stylelintConfig = require('../index.js');
+const stylelintConfig = require('../index');
 
 const code = `a {
   top: .5px;
