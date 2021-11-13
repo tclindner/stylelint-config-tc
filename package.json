@@ -46,16 +46,16 @@
     "npm-package-json-lint": "^5.4.1",
     "npm-package-json-lint-config-tc": "^4.1.0",
     "prettier": "^2.4.1",
-    "stylelint": "^13.13.1",
     "stylelint-prettier": "^1.2.0"
+    "stylelint": "^14.0.1",
   },
   "dependencies": {
     "stylelint-config-prettier": "^9.0.3"
   },
   "peerDependencies": {
     "prettier": "^2.0.0",
-    "stylelint": "^13.0.0",
     "stylelint-prettier": "^1.0.0"
+    "stylelint": "^14.0.0",
   },
   "engines": {
     "node": ">=10.0.0",
