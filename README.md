@@ -5,8 +5,6 @@
 [![license](https://img.shields.io/github/license/tclindner/stylelint-config-tc.svg?maxAge=2592000&style=flat-square)](https://github.com/tclindner/stylelint-config-tc/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/stylelint-config-tc.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/stylelint-config-tc)
 ![ci](https://github.com/tclindner/stylelint-config-tc/workflows/ci/badge.svg?branch=master)
-[![Dependency Status](https://david-dm.org/tclindner/stylelint-config-tc.svg?style=flat-square)](https://david-dm.org/tclindner/stylelint-config-tc)
-[![devDependency Status](https://david-dm.org/tclindner/stylelint-config-tc/dev-status.svg?style=flat-square)](https://david-dm.org/tclindner/stylelint-config-tc#info=devDependencies)
 
 ## What is stylelint-config-tc?
 
@@ -20,7 +18,7 @@ First thing first, let's make sure you have the necessary pre-requisites.
 
 #### Node
 
-* [Node.js](https://nodejs.org/) - v10.0.0+
+* [Node.js](https://nodejs.org/) - v12.0.0+
 * [npm](http://npmjs.com) - v6.0.0+
 
 ### Command
