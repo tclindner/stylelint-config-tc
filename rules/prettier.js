@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     'prettier/prettier': [
-      'error',
+      true,
       {
         bracketSpacing: false,
         printWidth: 124,
