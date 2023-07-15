@@ -50,6 +50,9 @@
     "stylelint": "^15.10.1",
     "stylelint-prettier": "^4.0.0"
   },
+  "dependencies": {
+    "stylelint-config-standard": "^34.0.0"
+  },
   "peerDependencies": {
     "prettier": "^3.0.0",
     "stylelint": "^15.0.0",
@@ -60,7 +63,4 @@
     "npm": ">=8.0.0"
   },
   "license": "MIT",
-  "dependencies": {
-    "stylelint-config-standard": "^34.0.0"
-  }
 }
