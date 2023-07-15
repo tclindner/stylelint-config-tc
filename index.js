@@ -3,5 +3,5 @@ const prettier = require.resolve('./rules/prettier');
 
 module.exports = {
   extends: ['stylelint-config-standard', limitLanguageFeatures, 'stylelint-prettier/recommended', prettier],
-  plugins: ['stylelint-prettier']
+  plugins: ['stylelint-prettier'],
 };

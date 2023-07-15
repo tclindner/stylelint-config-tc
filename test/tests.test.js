@@ -30,8 +30,7 @@ describe('stylelint config tests', () => {
         code,
         configFile: '.stylelintrc.json',
       });
-console.log(errored);
-console.log(results[0]);
+
       const result = results[0];
       const warning = result.warnings[0];
       const expectedErrorLineNum = 6;
