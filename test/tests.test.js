@@ -2,7 +2,11 @@ const isPlainObj = require('is-plain-obj');
 const stylelint = require('stylelint');
 const stylelintConfig = require('../index');
 
-const code = `a {
+const code = `p {
+  margin-bottom: 10px;
+}
+
+a {
   top: .5px;
 }
 `;
@@ -26,10 +30,11 @@ describe('stylelint config tests', () => {
         code,
         configFile: '.stylelintrc.json',
       });
-
+console.log(errored);
+console.log(results[0]);
       const result = results[0];
       const warning = result.warnings[0];
-      const expectedErrorLineNum = 2;
+      const expectedErrorLineNum = 6;
       const expectedErrorColumnNum = 8;
 
       expect(errored).toBe(true);
